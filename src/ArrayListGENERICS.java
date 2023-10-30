@@ -39,8 +39,8 @@ public class ArrayListGENERICS<T extends Comparable<T>> {
         List<T> array = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < length; i++) {
-            // You can customize the range of random values based on your needs
-            array.add((T) Integer.valueOf(random.nextInt(100))); // Generate random integers between 0 and 99
+            
+            array.add((T) Integer.valueOf(random.nextInt(100))); 
         }
         return array;
     }
